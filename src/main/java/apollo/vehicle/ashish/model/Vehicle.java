@@ -2,7 +2,9 @@ package apollo.vehicle.ashish.model;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
+
 import java.math.BigDecimal;
+
 @Schema(description = "Vehicle entity representing a car")
 @Entity
 @Table(name = "Vehicle")
